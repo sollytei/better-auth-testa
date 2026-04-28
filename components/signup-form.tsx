@@ -53,7 +53,7 @@ export function SignupForm({ ...props }: React.ComponentProps<typeof Card>) {
    if(error){
     alert(error.message)
    }
-   alert("User successfully registered")
+   alert(`${data?.user.name} created successfully`)
   }
 
 
